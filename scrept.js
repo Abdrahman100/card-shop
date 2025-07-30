@@ -16,7 +16,7 @@ cartItem.forEach((cart) => {
         "background .3s ease-in-out , display .3s ease-in-out,transform .3s ease-in-out ,box-shadow .3s ease-in-out";
     }, 1000);
     setTimeout(() => {
-      cart.style = "display: none;";
+      message.style = "display: none;";
     }, 6000);
   });
 });
